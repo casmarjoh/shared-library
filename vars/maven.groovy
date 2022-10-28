@@ -1,3 +1,4 @@
-def build (Map params){
+def build (){
+    echo "voy aqui"
     sh "mvn -B -DskipTests clean package"
 }
